@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Detection</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Color Detection</h1>
+    
+        <form id="uploadForm">
+            <input type="file" class="button-4" name="image" accept="image/*" required>
+            <input type="submit" class="button-4" value="Upload and Detect Color">
+            <input type="reset" class="button-4" value="Reset">
+        </form>
+    
+        <div id="result"></div>
+
+        <!-- Loading animation -->
+        <div id="loading" class="loader" style="display: none;"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
